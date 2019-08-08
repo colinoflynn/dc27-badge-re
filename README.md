@@ -76,3 +76,8 @@ https://www.nxp.com/products/no-longer-manufactured/nfmi-radio-for-wireless-audi
 ## Firmware
 
 Tag-Connect is used. You need to mangle @cryptotx's tag-connect probe to make it fit, and the device firmware can be dumped. Firmware dump included here.
+
+
+### Fun Addresses
+
+At row 0xFC00 there is some data, storing game flags. You can write this row to different stuff to see flags toggle... set it to all FF's to get "hax0r" state and also rick roll yourself on reboot.
