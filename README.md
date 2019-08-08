@@ -1,13 +1,15 @@
 
 This repo has some notes @stacksmashing, @cryptotx, and @colinoflynn made quickly.
 
+![](photo_annotate.jpg)
+
 ## Connections
 
 Serial port is 1.8V. Orienting your badge with DEFCON at top, and counting from left to right:
 
 1. vcc (1.8V)
-2. Tx from micro (output FROM micro)
-3. RX (input TO micro, connect your tx here)
+2. TX from micro (output FROM micro, connect your RX here)
+3. RX (input TO micro, connect your TX here)
 4. Gnd
 
 
